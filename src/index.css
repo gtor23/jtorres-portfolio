@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+main {
   @apply mx-auto max-w-screen-xl px-5 font-sans xs:text-[16px] md:text-[18px]
 }
+
+/* body {
+  @apply mx-auto max-w-screen-xl px-5 font-sans xs:text-[16px] md:text-[18px]
+} */
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

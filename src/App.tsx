@@ -1,14 +1,17 @@
 import './App.css'
-import { Hero, AboutMe } from './index'
-import { appContent } from './content/content';
 
-export default function App() {
-  const { aboutMeContent } = appContent
+import { Header, Hero } from './index'
+
+function App() {
 
   return (
     <>
-      <Hero />
-      <AboutMe aboutMeContent={aboutMeContent}/>
+      <Header />
+      <main>
+        <Hero />
+      </main>
     </>
   )
 }
+
+export default App
