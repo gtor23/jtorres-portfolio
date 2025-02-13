@@ -1,14 +1,19 @@
 import './App.css'
-import { Hero, AboutMe } from './index'
-import { appContent } from './content/content';
+import { Header, Hero, AboutMe } from './index'
+import { appContent } from './content/content'
 
-export default function App() {
-  const { aboutMeContent } = appContent
+function App() {
+  const {aboutMeContent} = appContent
 
   return (
     <>
-      <Hero />
-      <AboutMe aboutMeContent={aboutMeContent}/>
+      <Header />
+      <main>
+        <Hero />
+        <AboutMe aboutMeContent={aboutMeContent}/>
+      </main>
     </>
   )
 }
+
+export default App
