@@ -1,5 +1,5 @@
 import './App.css'
-import { Header, Hero, AboutMe } from './index'
+import { Header, Hero, AboutMe, ContactMe} from './index'
 import { appContent } from './content/content'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <AboutMe aboutMeContent={aboutMeContent}/>
+        <ContactMe />
       </main>
     </>
   )
