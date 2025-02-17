@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import chicagoSkylineOutline from '../../assets/chi_skyline_outline.svg'
+import chicagoSkylineOutline from '../../assets/SVGs/chi_skyline_outline.svg'
 import MenuIcon from './MenuIcon'
 
 export default function Header() {
