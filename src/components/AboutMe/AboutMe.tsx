@@ -1,4 +1,3 @@
-
 interface AboutMeProps {
     aboutMeContent: string;
 }
