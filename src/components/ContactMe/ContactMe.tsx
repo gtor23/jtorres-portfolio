@@ -16,7 +16,7 @@ export default function ContactMe() {
                 <a
                     href="mailto:gerardo.tor23@gmail.com"
                     aria-label="gerardo.tor23@gmail.com"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     target="_blank"
                     className="flex transition duration-300 text-black hover:opacity-50 hover:underline dark:text-white"
                 >
