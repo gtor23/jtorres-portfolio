@@ -1,4 +1,4 @@
-import { Envelope, Github, LinkedIn } from '../../assets/SVGs/icons'
+import { Envelope, GitHub, LinkedIn } from '../../assets/SVGs/icons'
 
 export default function CallToAction(){
     return (
@@ -17,7 +17,7 @@ export default function CallToAction(){
                 rel="noopener"
                 aria-label="github"
             >
-                <Github />
+                <GitHub />
             </a>
             <a 
                 href='https://www.linkedin.com/in/gt24/' 
