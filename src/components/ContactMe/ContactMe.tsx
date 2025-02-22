@@ -4,7 +4,7 @@ export default function ContactMe() {
     return (
         <section
             data-testid="contact"
-            id="contact"
+            id="contact-me"
             className="section-contact-me mt-0 flex flex-col items-center justify-center gap-y-2"
         >
             <div className="contact-me-heading flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
