@@ -14,7 +14,7 @@ interface ProjectsProps {
 
 export default function Projects({projectCardsContent}: ProjectsProps) { 
     return (
-        <section className="section-projects mt-0 flex flex-col items-center justify-center md:mt-10">
+        <section id="projects" className="section-projects mt-0 flex flex-col items-center justify-center md:mt-10">
             <div className="projects-heading flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
                 <h2 className="font-monospace text-2xl text-red-500 lg:text-4xl">
                     Projects
