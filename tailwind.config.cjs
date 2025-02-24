@@ -18,7 +18,7 @@ module.exports = {
 		},
 		extend:{
 			colors: {
-				transparent: 'transparent',
+			transparent: 'transparent',
 			current: 'currentColor',
 			black: colors.black,
 			white: colors.white,
@@ -32,18 +32,12 @@ module.exports = {
 			slate: colors.blueGray,
 			lime: colors.lime,
 			rose: colors.rose,
+			'theme-dark': '#242424',
+			'theme-light': 'rgba(255, 255, 255, 0.87)',
 			}
 		},
-		// colors: {
-		// 	// black: '#000',
-		// 	// white: '#fff',
-		// 	// orange: '#E06330',
-		// 	// brown: '#6F2B11',	
-		// },
 		fontFamily: {
-			// Headings
 			sans: ['Inter', 'sans-serif'],
-			// Base text
 			monospace: ['Inconsolata', 'monospace'],
 		},
 		fontSize: {
