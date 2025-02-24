@@ -20,7 +20,7 @@ export default function Projects({projectCardsContent}: ProjectsProps) {
                     Projects
                 </h2>
             </div>
-            <div className="project-cards-section mb-10 flex w-full flex-col flex-wrap items-center md:flex-row">
+            <div className="project-cards-section flex w-full flex-col flex-wrap items-center md:flex-row">
                 {projectCardsContent.map((project, index) => {
                     return (
                         <Card 
