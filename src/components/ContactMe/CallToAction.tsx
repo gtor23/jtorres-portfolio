@@ -8,6 +8,7 @@ export default function CallToAction(){
                 aria-label="gerardo.tor23@gmail.com" 
                 rel="noopener" 
                 target="_blank"
+                className="transition duration-300 hover:opacity-50"
             >
                 <Envelope />
             </a>
@@ -16,6 +17,7 @@ export default function CallToAction(){
                 target="_blank" 
                 rel="noopener"
                 aria-label="github"
+                className="transition duration-300 hover:opacity-50"
             >
                 <GitHub />
             </a>
@@ -24,6 +26,7 @@ export default function CallToAction(){
                 target="_blank" 
                 rel="noopener" 
                 aria-label="linkedin"
+                className="transition duration-300 hover:opacity-50"
             >
                 <LinkedIn />
             </a>
