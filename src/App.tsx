@@ -1,21 +1,21 @@
-import "./App.css"
-import { Header, Hero, AboutMe, ContactMe, Projects } from "./index"
+import { Header, Hero, AboutMe, ContactMe, Projects, ThemeToggle } from "./index"
 import { appContent } from "./content"
 
 function App() {
-  const { aboutMeContent, projectCardsContent } = appContent
+    const { aboutMeContent, projectCardsContent } = appContent
 
-  return (
+    return (
     <>
-      <Header />
-      <main>
-        <Hero />
-        <AboutMe aboutMeContent={aboutMeContent} />
-        <Projects projectCardsContent={projectCardsContent}/>
-        <ContactMe />
-      </main>
+        <Header />
+        <main>
+            <Hero />
+            <AboutMe aboutMeContent={aboutMeContent} />
+            <Projects projectCardsContent={projectCardsContent}/>
+            <ContactMe />
+            <ThemeToggle />
+        </main>
     </>
-  )
+    )
 }
 
 export default App
