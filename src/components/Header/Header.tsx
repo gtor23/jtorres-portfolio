@@ -68,7 +68,7 @@ export default function Header() {
     return (
         <header ref={headerRef} className={headerClasses}>
             <div className="container max-w-full w-full flex justify-between md:justify-around items-center px-3 md:px-0">
-                <a href="/" className="headerLogo hover:opacity-50">
+                <a href="/" className="headerLogo hover:opacity-50 transition duration-300">
                     <ChicagoSkyline />
                 </a>
                 <div className="hamburger-menu block md:hidden">
