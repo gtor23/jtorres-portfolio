@@ -12,7 +12,7 @@ export default function Hero() {
             <span className="text-red-500">Jerry</span>!
           </h1>
         </div>
-        <div className="my-10 flex w-1/2 items-center justify-center">
+        <div className="my-10 flex w-9/12 xs:w-7/12 sm:w-1/2 items-center justify-center">
           <img
             className={imageClassName}
             src={jerryImage}
