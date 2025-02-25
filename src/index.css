@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 main {
-  @apply mx-auto max-w-screen-xl px-8 pb-4 font-sans xs:text-[16px] md:text-[18px];
+  @apply mx-auto max-w-screen-xl px-8 pb-6 font-sans xs:text-[16px] md:text-[18px];
 }
 
 :root {
@@ -24,6 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+  padding-bottom: 1rem;
 }
 
 a {

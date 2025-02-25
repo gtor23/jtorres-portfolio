@@ -1,4 +1,4 @@
-import { Header, Hero, AboutMe, ContactMe, Projects, ThemeToggle } from "./index"
+import { Header, Hero, AboutMe, ContactMe, Projects, ThemeToggle, Footer } from "./index"
 import { appContent } from "./content"
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
             <ContactMe />
             <ThemeToggle />
         </main>
+        <Footer />
     </>
     )
 }
