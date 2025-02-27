@@ -1,9 +1,8 @@
 interface AboutMeProps {
-    aboutMeContent: string;
+    aboutMeContent: React.ReactNode[];
 }
 
 export default function AboutMe({ aboutMeContent }: AboutMeProps) {
-    const paragraphs = aboutMeContent.split('\n\n'); 
     return (
         <section id="about-me" className="section-about-me mt-0 flex flex-col items-center justify-center pt-8">
             <div className="about-me-heading flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
@@ -11,12 +10,8 @@ export default function AboutMe({ aboutMeContent }: AboutMeProps) {
                     About Me
                 </h2>
             </div>
-            <div className="about-me-text whitespace-pre-line transition duration-300">
-                {paragraphs.map((paragraph, index) => (
-                    <p key={index} >
-                        {paragraph}
-                    </p>
-                ))}
+            <div className="about-me-text transition duration-300">
+                {aboutMeContent}
             </div>
         </section>
     )
