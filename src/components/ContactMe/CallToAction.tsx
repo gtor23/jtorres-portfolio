@@ -6,7 +6,7 @@ export default function CallToAction(){
             <a 
                 href="mailto:gerardo.tor23@gmail.com" 
                 aria-label="gerardo.tor23@gmail.com" 
-                rel="noopener" 
+                rel="noopener noreferrer" 
                 target="_blank"
                 className="transition duration-300 hover:opacity-50"
             >
@@ -15,7 +15,7 @@ export default function CallToAction(){
             <a 
                 href='https://github.com/gtor23' 
                 target="_blank" 
-                rel="noopener"
+                rel="noopener noreferrer"
                 aria-label="github"
                 className="transition duration-300 hover:opacity-50"
             >
@@ -24,7 +24,7 @@ export default function CallToAction(){
             <a 
                 href='https://www.linkedin.com/in/gt24/' 
                 target="_blank" 
-                rel="noopener" 
+                rel="noopener noreferrer"
                 aria-label="linkedin"
                 className="transition duration-300 hover:opacity-50"
             >
