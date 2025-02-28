@@ -9,7 +9,7 @@ export default function Footer() {
                     <a 
                         href='https://www.linkedin.com/in/gt24/' 
                         target="_blank" 
-                        rel="noopener" 
+                        rel="noopener noreferrer" 
                         aria-label="linkedin"
                         className="transition duration-300 hover:opacity-50"
                     >
