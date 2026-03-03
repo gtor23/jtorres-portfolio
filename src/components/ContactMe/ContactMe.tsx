@@ -8,7 +8,7 @@ export default function ContactMe() {
             className="section-contact-me mt-0 flex flex-col items-center justify-center gap-y-2 pt-8"
         >
             <div className="contact-me-heading flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
-                <h2 className="font-monospace text-2xl text-red-500 lg:text-4xl">Contact Me</h2>
+                <h2 className="font-monospace text-2xl text-cyan-500 lg:text-4xl">Contact Me</h2>
             </div>
             <CallToAction />
             <div className="contact-me-direct-email flex flex-col justify-center items-center">

@@ -7,9 +7,9 @@ export default function Hero() {
       <div className="flex flex-col-reverse items-center justify-center lg:flex-row">
         <div className="heading my-10 flex flex-col items-center lg:mb-0 lg:w-1/2">
           <h1 className="font-monospace text-2xl lg:text-4xl transition duration-300">
-            Hi! I'm <span className="text-red-500">Gerardo Torres</span> and I
-            am a Software Engineer based in Chicago, IL. You can call me{" "}
-            <span className="text-red-500">Jerry</span>!
+            Hi! I'm <span className="text-cyan-500">Gerardo Torres</span>, a
+            Chicago-based Software Engineer. You can call me{" "}
+            <span className="text-cyan-500">Jerry</span>!
           </h1>
         </div>
         <div className="my-10 flex w-9/12 xs:w-7/12 sm:w-1/2 items-center justify-center">

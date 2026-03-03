@@ -14,7 +14,7 @@ export default function ThemeToggle() {
 
   return (
     <button
-      className="theme-toggle rounded-full p-1 transition duration-300 hover:opacity-50 fixed bottom-2 right-2 md:bottom-4 md:right-4 z-50 bg-blue-400 bg-opacity-40"
+      className="theme-toggle rounded-full p-1 transition duration-300 hover:opacity-50 bg-blue-400 bg-opacity-40"
       aria-label="Toggle Theme"
       onClick={() => setIsDarkTheme(!isDarkTheme)}
     >
