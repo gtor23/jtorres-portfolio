@@ -7,6 +7,7 @@ import spadeStation from './spade_station.png';
 import stockHeightCalculator from './stock_height_calc.png';
 import strangerThings from './strangers_things.png';
 import toolSearchGUI from './tool_search_gui.png';
+import storybookViteReact from './storybook_vite_react.png';
 
 export {
     arcade,
@@ -17,5 +18,6 @@ export {
     spadeStation,
     stockHeightCalculator,
     strangerThings,
-    toolSearchGUI
+    toolSearchGUI,
+    storybookViteReact
 }
