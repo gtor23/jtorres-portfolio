@@ -1,7 +1,17 @@
-import { arcade, artCollector, calculator, fitnessTracker, retroDraw, spadeStation,stockHeightCalculator, strangerThings, toolSearchGUI } from "../assets/images/projects"
-import { ExpressIcon, HTMLIcon, JSIcon, NodeIcon, PSQLIcon, PythonIcon, ReactIcon, CSSIcon } from "../assets/SVGs/icons"
+import { arcade, artCollector, calculator, fitnessTracker, retroDraw, spadeStation,stockHeightCalculator, strangerThings, toolSearchGUI, storybookViteReact } from "../assets/images/projects"
+import { ExpressIcon, HTMLIcon, JSIcon, NodeIcon, PSQLIcon, PythonIcon, ReactIcon, CSSIcon, ViteIcon, StorybookIcon, TypeScriptIcon } from "../assets/SVGs/icons"
 
 export const projectCardsContent = [
+    {
+        title: "Storybook Vite React Playground",
+        description: "Ongoing development platform serving as a space to build modular components, test new concepts, and continuously improve front-end skills",
+        image: storybookViteReact,
+        links: {
+            github: "https://github.com/gtor23/storybook-vite-react",
+            web: ""
+        },
+        icons: [StorybookIcon, ViteIcon, ReactIcon, TypeScriptIcon]
+    },
     {
         title: "Spade Station",
         description: "Modern retail platform focused on preserving and collecting retro video games",
