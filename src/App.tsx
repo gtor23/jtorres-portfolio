@@ -1,4 +1,4 @@
-import { Header, Hero, AboutMe, ContactMe, Projects, ThemeToggle, Footer } from "./index"
+import { Header, Hero, AboutMe, ContactMe, Projects, Footer } from "./index"
 import { appContent } from "./content"
 
 function App() {
@@ -12,7 +12,6 @@ function App() {
             <AboutMe aboutMeContent={aboutMeContent} />
             <Projects projectCardsContent={projectCardsContent}/>
             <ContactMe />
-            <ThemeToggle />
         </main>
         <Footer />
     </>

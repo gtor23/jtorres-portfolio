@@ -1,6 +1,6 @@
 export const aboutMeContent: React.ReactNode[] = [
     <p className="paragraph-1 mb-4">
-        My name is Gerardo Torres, better known as Jerry, and I am a Software Engineer located in Chicago, IL. With 3 years of professional experience in front-end UI development, I'm eager to expand my skill set and explore other areas of software engineering.
+        My name is Gerardo Torres, better known as Jerry, and I am a Software Engineer located in Chicago, IL. With 4+ years of professional experience in front-end UI development, I'm eager to expand my skill set and explore other areas of software engineering.
     </p>,
     <p className="paragraph-2 mb-4">
         My journey towards software engineering began with a strong foundation in engineering principles. I graduated from the University of Illinois at Chicago with a Bachelor's of Science in Mechanical Engineering in Spring 2018, and after 2.5 years of working as an engineer in the manufacturing industry, I decided to pursue a career in Software Engineering. My interest in this career grew as I took it upon myself to revisit programming in hopes of being able to develop better solutions in my daily work tasks.

@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 
 import MenuIcon from "./MenuIcon"
+import ThemeToggle from "../ThemeToggle/ThemeToggle"
 
 import ChicagoSkyline from "../../assets/SVGs/ChicagoSkyline"
 
@@ -71,10 +72,11 @@ export default function Header() {
                 <a href="./" className="headerLogo hover:opacity-50 transition duration-300">
                     <ChicagoSkyline />
                 </a>
-                <div className="hamburger-menu block md:hidden">
+                <div className="flex items-center gap-4 md:hidden">
+                    <ThemeToggle />
                     <MenuIcon isMobileNavOpen={isMobileNavOpen} setIsMobileNavOpen={setIsMobileNavOpen}/>
                 </div>
-                <nav className="desktop-nav hidden md:flex md:flex-row">
+                <nav className="desktop-nav hidden md:flex md:flex-row md:items-center md:gap-8">
                     <ul className="flex h-full items-center space-x-8">
                         <li>
                             <a href="#about-me" className="transition duration-300 hover:opacity-50" onClick={() => handleAnchorClick("about-me")}>
@@ -92,6 +94,7 @@ export default function Header() {
                             </a>
                         </li>
                     </ul>
+                    <ThemeToggle />
                 </nav>
                 
             </div>
