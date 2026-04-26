@@ -1,4 +1,5 @@
 import CallToAction from "./CallToAction"
+import { ResumeButtonLink } from "../../content/AboutMeContent"
 
 export default function ContactMe() {
     return (
@@ -10,7 +11,8 @@ export default function ContactMe() {
             <div className="contact-me-heading flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
                 <h2 className="font-monospace text-2xl text-cyan-500 lg:text-4xl">Contact Me</h2>
             </div>
-            <CallToAction />
+            <div className="call-to-action pb-2"><CallToAction /></div>
+            <div className="resume-button flex pb-1"><ResumeButtonLink /></div>
             <div className="contact-me-direct-email flex flex-col justify-center items-center">
                 <h3 className="font-monospace text-xl transition duration-300 pb-1">Email me anytime!</h3>
                 <a
