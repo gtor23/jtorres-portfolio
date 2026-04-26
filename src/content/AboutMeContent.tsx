@@ -1,3 +1,15 @@
+export const ResumeButtonLink = () => (
+    <a 
+        className="transition duration-300 hover:opacity-70 bg-lime-300 font-semibold text-xl text-blue-800 py-0.5 px-5 rounded-xl"
+        href="https://gtor23.github.io/jerry-torres-assets/documents/gerardo_jerry_torres_resume.docx.pdf"
+        aria-label="gerardo_jerry_torres_resume"
+        rel="noopener noreferrer"
+        target="_blank"
+    >
+        View Resume
+    </a>
+)
+
 export const aboutMeContent: React.ReactNode[] = [
     <p className="paragraph-1 mb-4">
         My name is Gerardo Torres, better known as Jerry, and I am a Software Engineer located in Chicago, IL. With 4+ years of professional experience in front-end UI development, I'm eager to expand my skill set and explore other areas of software engineering.
@@ -30,5 +42,12 @@ export const aboutMeContent: React.ReactNode[] = [
             GitHub
         </a>
         .
-    </p>
+    </p>,
+    <div className="div-status-resume flex flex-col justify-center items-center gap-y-2">
+        <span className="open-for-opportunities-status font-semibold text-xl md:text-2xl">
+            Open for opportunities: {''}
+            <span className="text-lime-600 dark:text-lime-400">Yes</span>
+        </span>
+        <ResumeButtonLink />
+    </div>
 ]
